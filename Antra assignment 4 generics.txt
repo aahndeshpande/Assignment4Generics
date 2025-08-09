@@ -1,0 +1,29 @@
+1. Describe the problem generics address.
+Solution : The problem of overload of methods makes code long and redundant to accomodate different parameters type and using object type looses the type safety and it will be unwanted boxing , so we use  generics which allows us to design classes or methods but defer the specification of types until class or method is declared or called.
+
+2. How would you create a list of strings, using the generic List class?
+Solution : List<string> stringList = new List<string>();
+
+3. How many generic type parameters does the Dictionary class have?
+Solution : Two, TKey and TValue
+
+4. True/False. When a generic class has multiple type parameters, they must all match.
+Solution : False
+
+5. What method is used to add items to a List object?
+Solution : Add Method
+
+6. Name two methods that cause items to be removed from a List.
+Solution : Remove and RemoveAt are two methods that cause items to be removed from a list
+
+7. How do you indicate that a class has a generic type parameter?
+Solution :  we use <> after class name  and specifying the type parameter
+
+8. True/False. Generic classes can only have one generic type parameter.
+Solution : False
+
+9. True/False. Generic type constraints limit what can be used for the generic type.
+Solution : True
+
+10. True/False. Constraints let you use the methods of the thing you are constraining to.
+Solution : True
